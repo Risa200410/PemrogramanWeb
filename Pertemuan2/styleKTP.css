@@ -1,0 +1,82 @@
+.wrap{
+    margin: auto;
+    border: 1 px solid black;
+    width: 80%;
+}
+
+.kartu{
+    border: 1px solid black;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url('img/ktp1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+p{
+    margin: 0;
+}
+
+.judul{
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align:center;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+}
+
+.nik{
+    position: absolute;
+    top: 54px;
+    left: 100px;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: unset;
+}
+
+.foto{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    right: 18px;
+    top: 53px;
+    display: flex;
+}
+
+.isi{
+    position: absolute;
+    top: 88px;
+    left: 124px;
+    width: 300px;
+    font-size: 13px;
+}
+
+.gol{
+    position: absolute;
+    top: 117px;
+    left: 325px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.bawah{
+    position: absolute;
+    top: 215px;
+    left: 272px;
+    width: 300px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.ttd{
+    position: absolute;
+    top: 240px; 
+    left: 380px;
+    width: 300px;
+    font-size: 13px;
+}
+
