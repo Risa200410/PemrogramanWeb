@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas</title>
+    </head>
+    <body>
+        <script>
+            var word = "polinema";
+            tampilkan(word);
+            perulangan(word, "outputDiv");
+            function tampilkan(word) {
+            for ( i = 0; i < word.length; i++) {
+                var spasi = "";
+                for (j = 0; j < i+1; j++) {
+                spasi += " ";
+                }
+                console.log(spasi + word[i]);
+            }
+            }
+
+            function perulangan(word, huruf) {
+            var huruf = document.getElementById(huruf);
+            var text = "";
+            for (i = 0; i < word.length; i++) {
+                text += "<p>" + word[i] + " </p>";
+            }
+            }
+        </script>
+       <p>Buka console untuk melihat hasil</p>
+    </body>
+</html>
