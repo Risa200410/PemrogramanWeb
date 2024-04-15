@@ -1,0 +1,75 @@
+body {
+    background-color: #6c1325;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-image: url(bukti/wallpaper.png);
+}
+
+.container {
+    background-color: #c99393;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #6c1325;
+    text-align: center;
+}
+
+h2 {
+    color: #6c1325;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 97%;
+    padding: 8px;
+    margin: 6px 0 16px;
+    border: 1px solid #e29fc0;
+    border-radius: 4px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+select:hover {
+    border-color: #0056b3;
+}
+
+button {
+    background-color: #932e36;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}

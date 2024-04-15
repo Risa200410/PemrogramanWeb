@@ -1,0 +1,70 @@
+body {
+    background-color: #6c1325; 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+    margin: 20px;
+    background-image: url(bukti/wallpaper.png);
+}
+
+.upload-form-container {
+    background-color: #e7baba;
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 500px; 
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px;
+}
+
+.upload-button {
+    background-color: #6c1325; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 20px; 
+}
+
+.upload-button:hover {
+    background-color: #300c14; 
+}
+
+.file-input-container {
+    margin-bottom: 20px; 
+}
+
+.file-input {
+    display: none; 
+}
+
+.file-label {
+    background-color: #6c1325; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.file-label:hover {
+    background-color: #6c1325; 
+}
+
+.upload-status {
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: #6c1325;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6c1325;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
