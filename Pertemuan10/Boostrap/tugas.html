@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risa Shop Website</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+6+ROUwz9o0MoGfJvjxGwYjJ5ta1eTKhQjJFwqvGy5t5oJFm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .center-image {
+        display: flex;
+        justify-content: center;
+        padding: 20px; /* Tambahkan jarak dari navbar */
+      }
+      .rounded-image {
+        border-radius: 20px; /* Atur sudut gambar menjadi tumpul */
+      }
+      .navbar-nav .nav-link:hover {
+        color: blue ;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Risa shop</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Gambar -->
+    <div class="center-image">
+      <img
+        src="https://static.doofinder.com/main-files/uploads/2019/03/marketplace-e-commerce-1.jpg"
+        alt="Marketplace Image"
+        style="max-width: 800px; height: auto"
+        class="rounded-image"
+      />
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center bg-white">
+      <div class="container">
+        <h1 class="display-4">Selamat datang di Risa shop</h1>
+        <p class="lead">Banyak produk menarik di toko kami!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
